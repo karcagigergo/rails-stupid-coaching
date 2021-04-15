@@ -1,7 +1,7 @@
 class QuestionsController < ApplicationController
 
     def home
-      @time = Date.today
+      @time = Time.now
     end
     
     def answer
